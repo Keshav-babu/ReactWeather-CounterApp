@@ -15,6 +15,7 @@ export const UseEffectExample=()=>{
         <h5>Count : {count}</h5>
         <button onClick={()=>{
             setCount(count=>count+5)
-        }} >Change</button>
+        }} >Add 5</button>
+        <p>Example of useEffect * open console to see effect</p>
     </>
 }
