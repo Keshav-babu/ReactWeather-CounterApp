@@ -18,7 +18,7 @@ export const WeatherInfo=()=>{
         setLoading(true)
         axios({
             method:"get",
-            baseURL:"http://api.weatherapi.com/v1",
+            baseURL:"https://api.weatherapi.com/v1",
             url:"/current.json",
             params:{
                 key:"f87b2986947149e7b2a32245221003",
