@@ -16,6 +16,9 @@ export const UseEffectExample=()=>{
         <button onClick={()=>{
             setCount(count=>count+5)
         }} >Add 5</button>
+        <button onClick={()=>{
+            setCount(count=>count-2)
+        }}>Sub 2</button>
         <p>Example of useEffect * open console to see effect</p>
     </>
 }

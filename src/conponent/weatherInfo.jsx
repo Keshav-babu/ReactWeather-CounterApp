@@ -34,7 +34,7 @@ export const WeatherInfo=()=>{
     const [state,setState]=useState(initialState)
     const [loading,setLoading]=useState(false)
 
-    console.log("state",state)
+  //  console.log("state",state)
     return <>
         <h1>Weather Information</h1>
         <input type="text" onChange={(e)=>{
